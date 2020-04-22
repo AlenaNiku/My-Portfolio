@@ -97,6 +97,7 @@
   background-size: cover;
 }
 
+/* SVG DEVELOPER ANIMATION */
 #logo {
   animation: fill 1.5s ease forwards 3.5s;
 }
