@@ -185,15 +185,20 @@
 
 .masthead h2 {
   max-width: 20rem;
-  font-size: 2rem;
-  /* text-shadow: 0px 0px 10px silver,
+  font-size: 3rem;
+  text-shadow: 0px 0px 10px silver,
                0px 0px 20px silver, 
                0px 0px 30px silver,
                0px 0px 40px silver,
                0px 0px 50px silver,
                0px 0px 60px silver,
-               0px 0px 70px silver; */
+               0px 0px 70px silver;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: 2;
 }
+
+
 
 @media (min-width: 768px) {
   .masthead h1 {
@@ -293,28 +298,29 @@
 }
 
 .signup-section {
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
-  background-position: center;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/newYork.jpg");
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  padding: 4rem;
 }
 
-.signup-section .form-inline input {
+/* .signup-section .form-inline input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
+  padding: 4rem 2rem;
   height: auto;
   font-family: 'Varela Round';
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
-}
+} */
 
 .skills, .passions {
   color: antiquewhite;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .contact-section {
