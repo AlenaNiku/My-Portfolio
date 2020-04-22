@@ -163,14 +163,14 @@
 }
 
 .my-photo {
-    max-width: 40%;
+    max-width: 30%;
     height: auto;
     vertical-align: middle;
     border-style: none;
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 7rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
@@ -179,7 +179,7 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 6.5rem 0;
 }
 
 .projects-section .featured-text {
@@ -226,6 +226,12 @@
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
+}
+
+.skills, .passions {
+  color: antiquewhite;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .contact-section {
@@ -299,5 +305,5 @@ a:focus, a:hover {
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
