@@ -267,7 +267,7 @@
 }
 
 .projects-section {
-  padding: 6.5rem 0;
+  padding: 4rem 0;
 }
 
 .projects-section .featured-text {
@@ -306,16 +306,6 @@
   padding: 4rem;
 }
 
-/* .signup-section .form-inline input {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 4rem 2rem;
-  height: auto;
-  font-family: 'Varela Round';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-} */
 
 .skills, .passions {
   color: antiquewhite;
@@ -323,8 +313,9 @@
   margin-bottom: 3rem;
 }
 
+
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 4rem 0 0;
 }
 
 .contact-section .card {
@@ -357,6 +348,13 @@
   border-radius: 100%;
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
+  text-shadow: 0px 0px 10px silver,
+               0px 0px 20px silver, 
+               0px 0px 30px silver,
+               0px 0px 40px silver,
+               0px 0px 50px silver,
+               0px 0px 60px silver,
+               0px 0px 70px silver;
 }
 
 .contact-section .social a:hover {
@@ -378,7 +376,7 @@ a {
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: black;
 }
 
 .bg-black {
