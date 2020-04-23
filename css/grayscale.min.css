@@ -47,12 +47,14 @@
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: whitesmoke;
+    /* color: rgba(255, 255, 255, 0.5); */
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: whitesmoke;
+    /* color: rgba(255, 255, 255, 0.5); */
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -307,9 +309,16 @@
 
 
 .skills, .passions {
-  color: antiquewhite;
+  color: orangered;
   margin-top: 2rem;
   margin-bottom: 3rem;
+  text-shadow: 0px 0px 10px silver,
+               0px 0px 20px silver, 
+               0px 0px 30px silver,
+               0px 0px 40px silver,
+               0px 0px 50px silver,
+               0px 0px 60px silver,
+               0px 0px 80px silver;
 }
 
 
@@ -375,7 +384,7 @@ a {
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: blanchedalmond;
 }
 
 .bg-black {
@@ -384,6 +393,10 @@ a:focus, a:hover {
 
 .bg-primary {
   background-color:red !important;
+}
+
+.text-primary {
+  color:red !important;
 }
 
 .text-primary {
